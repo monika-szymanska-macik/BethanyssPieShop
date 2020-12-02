@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
 
 
 
@@ -14,41 +15,104 @@
 <body>
 
     <main role="main">
-        <div>
-            <h1>Apple pie
-                <small>Our famous, number-one selling pie.</small>
+        <div class="container">
+            <h1 class="m-3">Apple pie
+                <small class="text-muted">Our famous, number-one selling pie.</small>
             </h1>
-            
-            <div >
-                <div>
-                    <img src="images/products/applepie.jpg" alt="Image of apple pie">
+
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="images/products/applepie.jpg" class="rounded-lg img-fluid" alt="Image of apple pie">
                 </div>
 
-                <div>
-                    <h3>About this pie</h3>
-                    <p>Sweet ice cream jelly beans lemon drops. Pastry toffee fruitcake gingerbread jelly-o.
+                <div class="col-md-4">
+                    <h3 class="my-3 text-capitalized">About this pie</h3>
+                    <p class="text-justify">Sweet ice cream jelly beans lemon drops.<small>Pastry toffee fruitcake</small>  gingerbread jelly-o.
                         Lollipop sesame snaps muffin. Macaroon halvah marshmallow sesame snaps sugar plum dragée.
                         Wafer pudding sesame snaps tootsie roll sesame snaps cake chupa chups jelly beans.</p>
-                    <h3>Ingredients</h3>
+                    <h3 class="my-3">Ingredients</h3>
                     <ul>
                         <li>Apple</li>
                         <li>Sugar</li>
                         <li>Eggs</li>
                         <li>Milk</li>
                     </ul>
-                    <div>
-                        <div>
+                    <div class="row">
+                        <div class="col-md-4">
                             <strong>$14.95</strong>
                         </div>
-                        <div >
-                            <a type="button" href="shoppingbasket.html">
+                        <div class="col-md-8">
+                            <a type="button" href="shoppingbasket.html" class="btn btn-info float-right">
                                 Add to basket
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="table-responsive p-4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ingredient</th>
+                            <th>Risk</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Apple</th>
+                            <th>Yes</th>
+                            <th>52%</th>
+                        </tr>
+                        <tr>
+                            <th>Eggs</th>
+                            <th>Yes</th>
+                            <th>10%</th>
+                        </tr>
+                        <tr>
+                            <th>Nuts</th>
+                            <th>Maybe</th>
+                            <th>&lt;0.1%</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
+        <div class="p-4 mb-3 mt-2 bg-light rounded border border-primary">
+            <h4>Aquote from Bethany</h4>
+            <p class="mb-0 font-italic">
+                My recipes have been in our family from generations. We hope you enjoy ouer pies! -
+                Berthany
+            </p>
+        </div>
+            <h3 class="display-5 my-4">Other customers also bought...</h3>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="applepie.html">
+                        <img class="img-fluid" src="images/products/strawberrycheesecakesmall.jpg">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="applepie.html">
+                        <img class="img-fluid" src="images/products/rhubarbpiesmall.jpg">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="applepie.html">
+                        <img class="img-fluid" src="images/products/peachpiesmall.jpg">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="applepie.html">
+                        <img class="img-fluid" src="images/products/cranberrypiesmall.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+       
     </main>
 </body>
 
