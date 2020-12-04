@@ -4,6 +4,9 @@ body{
     background-image: url('../images/pattern.jpg');
     background-repeat: repeat;
 }
+.jumbotron-other{
+    background: url('../images/carousel3.jpg') no-repeat fixed;
+}
 .jumbotron-detail-apple-pie{
     background: url('../images/products/applepie.jpg') no-repeat fixed;
 }
